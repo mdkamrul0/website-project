@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #000000;
+}
+
+.nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: beige;
+}
+.nav a:hover{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+/* ^^^ NAVIGATION BAR ^^^ */
+
+.text{
+    color: beige;
+    font-family: 'Syne Mono', monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25%;
+    width: 80%;
+    font-size: larger;
+}
+
+h2{
+    padding-left: 53%;
+}
+
+
+.btn{
+   
+    background-color: beige;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+
+.btn1 {
+    background-color: black;
+    color: beige;
+    border: 3px solid beige;
+    border-radius: 8px;
+   
+  }
+  
+  .btn1:hover {
+    background-color: beige;
+    color: beige;
+  }
+
+  .btn a{
+    text-decoration: none;
+    font-family: 'Syne Mono', monospace;
+    font-weight: bold;
+    color: beige;
+  }
+
+  .btn a:hover{
+    text-decoration: none;
+    font-family: 'Syne Mono', monospace;
+    font-weight: bold;
+    color: black;
+  }
