@@ -34,13 +34,14 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 25%;
-    width: 80%;
-    font-size: larger;
+    padding-top: 15%;
+    width: 90%;
+    font-size: 40px;
 }
 
 h2{
     padding-left: 53%;
+    font-size: 30px;
 }
 
 
@@ -58,15 +59,15 @@ h2{
 
 .btn1 {
     background-color: black;
-    color: beige;
+    color: black;
     border: 3px solid beige;
-    border-radius: 8px;
+    border-radius: 20px;
    
   }
   
   .btn1:hover {
-    background-color: beige;
-    color: beige;
+    background-color: black;
+    color: cadetblue;
   }
 
   .btn a{
@@ -80,5 +81,5 @@ h2{
     text-decoration: none;
     font-family: 'Syne Mono', monospace;
     font-weight: bold;
-    color: black;
+    color: cadetblue;
   }
